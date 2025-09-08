@@ -50,7 +50,7 @@
             return true;
         }
 
-        Button lastClicked;
+        Button lastClicked = new();
         bool findingMatch = false;
         int matchesFound;
 
